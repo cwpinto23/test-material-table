@@ -1,0 +1,66 @@
+// CoreUI Icons Set
+// Import Flag Icons Set
+//@import '~flag-icon-css/css/flag-icon.min.css';
+// Import Font Awesome Icons Set
+@import 'node_modules/font-awesome/css/font-awesome.min.css';
+// Import Simple Line Icons Set
+// Import Main styles for this application
+
+/*----------New Sidebar----------------*/
+.sideBarHeaders{
+    color: white;
+    font-size: 16px !important;
+    font-family: Circular,  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  
+/* Material TABLE */
+
+.MuiTableSortLabel-root{
+  color:grey !important;
+}
+
+.MuiTableRow-head{
+  border-bottom: 2px solid rgba(224, 224, 224, 1) !important;
+}
+
+
+
+input,
+.StripeElement {
+    display: block;
+    margin: 10px 0 20px 0;
+    max-width: 500px;
+    padding: 10px 14px;
+    font-size: 1em;
+    font-family: 'Source Code Pro', monospace;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    background: white;
+}
+
+input::placeholder {
+    color: #aab7c4;
+}
+
+input:focus,
+.StripeElement--focus {
+    box-shadow: rgba(50, 50, 93, 0.109804) 0px 4px 6px, rgba(0, 0, 0, 0.0784314) 0px 1px 3px;
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+}
+
+.jss36{
+    color:black;
+    background-color: white;
+}
+.MTableToolbar-title-36{
+  color:black;
+  background-color: white;
+}
