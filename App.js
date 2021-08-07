@@ -1,6 +1,7 @@
 import React, {Component, Suspense} from 'react';
 import './App.scss'
 import Routes from './routes/Routes'
+import MaterialTable from '@material-table/core';
 import {RenderLoader} from "./utils/SkeletonLoaders";
 
 function App({location}) {
@@ -10,6 +11,7 @@ function App({location}) {
                 <div>
                         <Suspense fallback={RenderLoader()}>
                             <Routes location={location}/>
+                            <MaterialTable />
                         </Suspense>
                 </div>
             </div>

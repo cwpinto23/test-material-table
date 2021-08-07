@@ -3,6 +3,7 @@ import TestRenderer from 'react-test-renderer';
 import {MemoryRouter, Route, Switch} from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import TestFeatures from "../components/pages/TestFeatures";
+import MaterialTable from '@material-table/core';
 
 
 describe('Render Test', () => {
